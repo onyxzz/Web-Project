@@ -13,94 +13,67 @@
 <!-- Header -->
 
 	<div class="header">
-		<div class="container">
-			<div class="navbar">
-				<dir class="logo">
-					<a href="./index.html"><img src="./images/Logo.PNG" width="125px"></a>
-				</dir>
-				<nav>
-					<ul>
-						<li><a href="./index.html">Home</a></li>
-						<li><a href="./products.html">Products</a></li>
-						<li><a href="">Payment</a></li>
-						<li><a href="">Contact</a></li>
-						<li><a href="">About</a></li>
-					</ul>
-				</nav>
-				<a href="./cart.html"><img src="./images/Cart.PNG" width="30px" height="30px"></a>
+	<div class="container">
+		<div class="navbar">
+			<div class="logo">
+				<a href="./index.html"><img src="./images/Logo.png" width="125px"></a>
 			</div>
+			<nav>
+				<ul>
+					<li><a href="./index.html">Home</a></li>
+					<li><a href="./products.html">Products</a></li>
+					<li><a href="">Payment</a></li>
+					<li><a href="">Contact</a></li>
+					<li><a href="">About</a></li>
+				</ul>
+			</nav>
+			<li class="cart">
+				<a href="./cart.html">
+					<img src="./images/Cart.png" width="30px" height="30px">
+					<span style="background: rgba(0, 0, 0, 0);">0</span>
+				</a>
+			</li>
 		</div>
 	</div>
-	<hr>
+</div>
+<hr>
 
 <!-- On Cart Items-->
 
-	<div class="small-container cart-page">
-		<table>
-			<tr>
-				<th>Product</th>
-				<th>Quantity</th>
-				<th>Subtotal</th>
-			</tr>
-			<tr class="cart-row">
-				<td>
-					<div class="cart-item">
-						<img class="cart-img" src="./images/MAC_988.jpg">
-						<div>
-							<p>MAC 988</p>
-							<small class="price">Price: $22.00</small>
-							<br>
-							<button class="remove-btn">Remove</button>
-						</div>
-					</div>
-				</td>
-				<td><input class="quantity" type="number" value="1"></td>
-				<td><span class="total-row-price"></span></td>
-			</tr>
-			<tr class="cart-row">
-				<td>
-					<div class="cart-item">
-						<img class="cart-img" src="./images/Satin_Crush_Mono_Eyeshadow.jpg">
-						<div>
-							<p>Satin Crush Mono Eyeshadow</p>
-							<small class="price">Price: $30.00</small>
-							<br>
-							<button class="remove-btn">Remove</button>
-						</div>
-					</div>
-				</td>
-				<td><input class="quantity" type="number" value="1"></td>
-				<td><span class="total-row-price"></span></td>
-			</tr>
-			<tr class="cart-row">
-				<td>
-					<div class="cart-item">
-						<img class="cart-img" src="./images/Diorshow_Iconic_Overcurl_Waterproof.jpg">
-						<div>
-							<p>Diorshow Iconic Overcurl Waterproof</p>
-							<small class="price">Price: $29.50</small>
-							<br>
-							<button class="remove-btn">Remove</button>
-						</div>
-					</div>
-				</td>
-				<td><input class="quantity" type="number" value="1"></td>
-				<td><span class="total-row-price"></span></td>
-			</tr>
-		</table>
-		<div class="total-price">
-			<table>
-				<tr>
-					<td>Total :</td>
-					<td class='final-total'></td>
-				</tr>
-				<tr>
-					<td>VAT Included</td>
-					<td></td>
-				</tr>
-			</table>
-		</div>
-	</div>
+<div class="products-container">
+    <div class="product-header">
+        <h5 class="product-title">Product</h5>
+        <h5 class="quantity">Quantity</h5>
+        <h5 class="price">Price</h5>
+        <h5 class="total">Total</h5>
+    </div>
+    <div class="products">
+
+    </div>
+</div>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"></button>
+
+<script>
+    var mybutton = document.getElementById("myBtn");
+    
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+<script src="./main.js"></script>
 
 <!-- Footer -->
 
