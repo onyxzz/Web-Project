@@ -5,7 +5,73 @@ let products = [
 	{
 		name: 'MAC 988',
 		tag: 'MAC_988',
+		price: 22.00,
+		inCart: 0
+	},
+	{
+		name: 'Counture Blush',
+		tag: 'Counture_Blush',
+		price: 42.00,
+		inCart: 0
+	},
+	{
+		name: 'Satin Crush Mono Eyeshadow',
+		tag: 'Satin_Crush_Mono_Eyeshadow',
+		price: 30.00,
+		inCart: 0
+	},
+	{
+		name: 'Forever Perfect Fix',
+		tag: 'Forever_Perfect_Fix',
+		price: 42.00,
+		inCart: 0
+	},
+	{
+		name: 'Diorshow Iconic Overcurl Waterproof',
+		tag: 'Diorshow_Iconic_Overcurl_Waterproof',
+		price: 29.50,
+		inCart: 0
+	},
+	{
+		name: 'Sérum De Beauté Fluide Soyeux Primer',
+		tag: 'Sérum_De_Beauté_Fluide_Soyeux_Primer',
+		price: 57.00,
+		inCart: 0
+	},
+	{
+		name: '318 Synthetic Retractable Lip Brush',
+		tag: '318_Synthetic_Retractable_Lip_Brush',
+		price: 24.00,
+		inCart: 0
+	},
+	{
+		name: 'Crayon Définition Sourcils Eyebrow Pencil',
+		tag: 'Crayon_Définition_Sourcils_Eyebrow_Pencil',
+		price: 32.00,
+		inCart: 0
+	},
+	{
+		name: 'Nail Glow',
+		tag: 'Nail_Glow',
+		price: 28.00,
+		inCart: 0
+	},
+	{
+		name: 'LHOMME Le Parfum',
+		tag: 'LHOMME_Parfum',
+		price: 118.00,
+		inCart: 0
+	},
+	{
+		name: 'Studio Fix Perfecting Stick',
+		tag: 'Studio Fix Perfecting Stick',
 		price: 20,
+		inCart: 0
+	},
+	{
+		name: 'Hortus Sanitatis Parfum',
+		tag: 'Hortus_Sanitatis_Parfum',
+		price: 330.00,
 		inCart: 0
 	}
 ];
