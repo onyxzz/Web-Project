@@ -98,8 +98,27 @@
 			</div>
 		</div>
 	</div>
+	
+	<button onclick="topFunction()" id="myBtn" title="Go to top"></button>
 
-	<script src="./main.js"></script>
+<script>
+    var mybutton = document.getElementById("myBtn");
+    
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
 	
 <!-- Footer -->
 
@@ -147,6 +166,8 @@
 			<p class="copyright">Created by Duong Pham, Veera Salokannel, Sachit Danai and Huy Le</p>
 		</div>
 	</div>
+	
+		<script src="./main.js"></script>
 
 </body>
 
