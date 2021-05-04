@@ -164,10 +164,21 @@ function displayCart(){
 				<button class="remove-btn">Remove</button>
 			</div>
 			<div class="quantity">
+			<h4 class="quantity">
+			Quantity
+			</h4>
 				<span>${item.inCart}</span>
 			</div>
-			<div class="price">$${item.price},00</div>
+			<div class="price">
+			<h4 class="Price">
+			Price
+			</h4>
+			$${item.price},00
+			</div>
 			<div class="total">
+			<h4 class="BasketTotal">
+			Total
+			</h4>
 				$${item.inCart * item.price},00
 			</div>
 			`
