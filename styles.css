@@ -15,7 +15,7 @@ body{
 }
 .header{
     max-height: 100px;
-	background-image: url("images/header_background.png");
+	background-image: url("./images/header_background.png");
 }
 .header .row{
 	margin-top: 70px;
@@ -91,6 +91,18 @@ h4{
 	transition: background 0.5s;
 }
 .addcart:hover{
+	background: #41AAC4;
+}
+.button{
+	display:inline-block;
+	background: #2F343A;
+	color: #DDDDDD;
+	padding: 8px 30px;
+	margin: 30px 0;
+	border-radius: 30px;
+	transition: background 0.5s;
+}
+.button:hover{
 	background: #41AAC4;
 }
 #myBtn {
