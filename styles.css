@@ -10,8 +10,8 @@
 body{
 	font-family: 'Poppins', sans-serif;
 }
-.header{
-    max-height: 100px;
+.mainHeader{
+	max-height: 100px;
 }
 .header{
     max-height: 100px;
@@ -81,7 +81,7 @@ h4{
 	padding-right: 25px;
 }
 
-.button{
+.addcart{
 	display:inline-block;
 	background: #2F343A;
 	color: #DDDDDD;
@@ -90,7 +90,7 @@ h4{
 	border-radius: 30px;
 	transition: background 0.5s;
 }
-.button:hover{
+.addcart:hover{
 	background: #41AAC4;
 }
 #myBtn {
@@ -315,24 +315,6 @@ h4{
 }
 .btns{
     display:flex;
-}
-
-.addcart {
-    background-color: #DDDDDD;
-    border-radius: 8px;
-    width: 150px;
-    height: 55px;
-    font-size: 20px;
-    font-weight: 600;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.35);
-    border-width: 1px;
-    margin-left: 23px;
-    color: red;
-}
-
-.addcart > b {
-    text-decoration: none;
-    color: blue;
 }
 
 .buynow {
