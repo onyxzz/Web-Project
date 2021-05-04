@@ -499,22 +499,10 @@ input:focus{
 	max-width: 650px;
 	display: flex;
 }
-.products{
-	display: flex;
-	flex-wrap: wrap;
+.Purchase-button{
+	float: right;
 }
-.product-title{
-	width: 40%
-}
-.quantity{
-	width: 20%
-}
-.price{
-	width: 20%
-}
-.total{
-	width: 20%
-}
+
 h5{
 	text-align: left;
 	padding: 5px;
